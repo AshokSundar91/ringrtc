@@ -65,7 +65,7 @@ async function downloadIfNeeded() {
 
     console.log('local build artifact is outdated');
   }
-  await download();
+  //await download();
 }
 
 function download() {
